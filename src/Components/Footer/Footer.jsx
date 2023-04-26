@@ -3,7 +3,7 @@ import './footer.scss'
 import video2 from '../../assets/videos/video2.mp4'
 
 import {FiSend} from 'react-icons/fi'
-import {MdTravelExplore} from 'react-icons/md'
+import {GiTentacleHeart} from 'react-icons/gi'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
@@ -47,15 +47,11 @@ useEffect(()=>{
                     <div className="footerIntro flex">
                         <div className="logoDiv">
                             <a href="#" className="logo flex">
-                            <MdTravelExplore className='icon' />    Travel.
+                            <GiTentacleHeart className='icon' />   M.LIFE
                             </a>
                         </div>
 
-                        <div data-aos= "fade-up" className="footerParagraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Labore obcaecati commodi ut dolorem ab similique ex repudiandae,
-                             iste suscipit neque. 
-                        </div>
+                        
                           
                           <div data-aos= "fade-up" className="footerSocials">
                               <AiOutlineTwitter className="icon"/>
@@ -64,86 +60,16 @@ useEffect(()=>{
                               <FaTripadvisor className="icon"/>
                           </div>
                     </div>
-                    <div className="footerLinks grid">
+                    <div className="footerLinks container">
 
-                       {/*  Group One */}
-                        <div data-aos= "fade-up" data-aos-duration = "3000" className="linkGroup">
-                            <span className="groupTitle">
-                                Our Agency
-                            </span>
-
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Services
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Agency
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Tourism
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Payment
-                            </li>
-                        </div>
-                       {/*  Group Two */}
-                        <div data-aos= "fade-up" data-aos-duration = "4000" className="linkGroup">
-                            <span className="groupTitle">
-                                Bookings
-                            </span>
-
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Rentcars
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                HostelWorld
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Trivago
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Payment
-                            </li>
-                        </div>
-                       {/*  Group Three*/}
-                        <div data-aos= "fade-up" data-aos-duration = "5000" className="linkGroup">
-                            <span className="groupTitle">
-                               LAST MINUTE 
-                            </span>
-
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                London
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                              California
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                                Indonesia
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                               Europe
-                            </li>
-                            <li className="footerList flex">
-                                <BiChevronRight className="icon" />
-                               Ocenia
-                            </li>
-                        </div>
+                                I celebrate you every single day, and because this day is extra-special, I celebrate you in a very special way with this special note “Thanks for coming into my life!”
+                      
+                      
                     </div>
 
                     <div className="footerDiv">
                         <small>BEST TRAVEL WEBSITE THEME</small>
-                        <small>cOPYRIGHT RESERVED - DONCREATIONS 2023 </small>
+                        <small>COPYRIGHT RESERVED - DONCREATIONS 2023 </small>
                     </div>
                      
                 </div>

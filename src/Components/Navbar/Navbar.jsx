@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 import './navbar.scss'
-import {MdOutlineTravelExplore} from 'react-icons/md'
+import {GiTentacleHeart} from 'react-icons/gi'
 import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
 
@@ -23,7 +23,8 @@ const removeNavBar = ()=>{
             <header className="header flex">
                 <div className="logoDiv">
                     <a href="#" className="logo flex">
-                        <h1><MdOutlineTravelExplore className='icon' />Travel</h1>
+                        <h1><GiTentacleHeart className='icon' />M.
+                        LIFE</h1>
                         </a>
                 </div>
 
@@ -33,27 +34,21 @@ const removeNavBar = ()=>{
                             <a href="" className="navLink">Home</a>
                         </li>
                         <li className="navItem">
-                            <a href="" className="navLink">Packages</a>
+                            <a href="" className="navLink">Wishes</a>
                         </li>
-                        <li className="navItem">
-                            <a href="" className="navLink">Shop</a>
-                        </li>
+                       
                         <li className="navItem">
                             <a href="" className="navLink">About</a>
                         </li>
-                        <li className="navItem">
-                            <a href="" className="navLink">Pages</a>
-                        </li>
-                        <li className="navItem">
-                            <a href="" className="navLink">News</a>
-                        </li>
+                       
+                        
                         <li className="navItem">
                             <a href="" className="navLink">Contact</a>
                         </li>
 
-                        <button className="btn">
+                        {/* <button className="btn">
                             <a href="#">BOOK NOW</a>
-                        </button>
+                        </button> */}
                     </ul>
 
                     <div onClick={removeNavBar}
