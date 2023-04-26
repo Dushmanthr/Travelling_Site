@@ -2,8 +2,7 @@ import React, {useEffect} from 'react'
 import './home.scss'
 import video from '../../assets/videos/video8.mp4'
 
-import {GrLocation} from 'react-icons/gr'
-import {HiFilter} from 'react-icons/hi'
+
 import {FiFacebook} from 'react-icons/fi'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {SiTripadvisor} from 'react-icons/si'
