@@ -72,7 +72,7 @@ const Data = [
 ]
 
 const Main = () => {
-//Lets create a react hook to add a scroll animation
+// create a react hook to add a scroll animation
     useEffect(()=>{
         Aos.init({duration:2000})
    }, [])
@@ -87,7 +87,7 @@ const Main = () => {
             </div>
 
              <div className="secContent grid">
-                 {/* Use high order array method(.map). */}
+                 
 
                  {
                      Data.map(({id,imgSrc,destTitle,location,grade,fees,description})=>{
